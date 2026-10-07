@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.pytest_cache/
+
+# Môi trường & API Keys
+.env
+.env.*
+*.env
+!.env.example
+
+# File chứng chỉ & private keys
+*.pem
+*.key
+*.pfx
+credentials.json
+client_secret*.json
+service-account*.json
+
+# Cấu hình IDE (tránh lưu biến môi trường trong cấu hình run/debug)
+.vscode/
+.idea/
